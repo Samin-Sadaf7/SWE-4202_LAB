@@ -13,6 +13,10 @@ namespace LibraryManagementSystem
         public string Publisher;
         public string Author;
         public int  Quantity;
+        public Book()
+        {
+
+        }
         public Book(int ID, string Name, string publisher, string author, int quantity)
         {   
             this.BookID = ID;

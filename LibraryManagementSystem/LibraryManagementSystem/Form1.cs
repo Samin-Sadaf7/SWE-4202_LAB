@@ -95,7 +95,7 @@ namespace LibraryManagementSystem
                         book.Quantity = book.Quantity - 1;
                         foreach (User user in users)
                         {
-                            user.AddBook(bookid);
+                            user.books.Add(bookid);
                             MessageBox.Show("Book has been added successfully");
                         }
                         break;
@@ -119,6 +119,7 @@ namespace LibraryManagementSystem
                     flag = true;
                     user = user1;
                     break;
+
                 }
             }
             if (flag == false)
@@ -127,16 +128,17 @@ namespace LibraryManagementSystem
             }
             UserList.Items.Clear();
             for (int i = 0; i < user.books.Count; i++)
-            {   
-                int id_book = user.books[i];
-                for (int j=0;j<books.Count; j++) {
-                    if (books[j].BookID == id_book)
-                    {
-                        UserList.Items.Add(books[j].history());
-                    }
-                        }   
-            }
-          
+             {   
+                 int id_book = user.books[i];
+                 for (int j=0;j<books.Count; j++) {
+                     if (books[j].BookID == id_book)
+                     {
+                         UserList.Items.Add(books[j].history());
+                     }
+                         }   
+             }
+           
+        
         }
 
         private void ShowBook_Click(object sender, EventArgs e)

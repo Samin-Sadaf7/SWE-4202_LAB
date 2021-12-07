@@ -27,9 +27,5 @@ namespace LibraryManagementSystem
         {
             books.Add(ID);
         }
-        public void RemoveBook(int ID)
-        {
-            books.Remove(ID);
-        }
       }
 }
