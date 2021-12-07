@@ -9,3 +9,14 @@ C:\Users\Hp\source\repos\LibrarayManagementSystem_(2.0)\LibrarayManagementSystem
 C:\Users\Hp\source\repos\LibrarayManagementSystem_(2.0)\LibrarayManagementSystem_(2.0)\obj\Debug\LibrarayManagementSystem_(2.0).csproj.CoreCompileInputs.cache
 C:\Users\Hp\source\repos\LibrarayManagementSystem_(2.0)\LibrarayManagementSystem_(2.0)\obj\Debug\LibrarayManagementSystem_(2.0).exe
 C:\Users\Hp\source\repos\LibrarayManagementSystem_(2.0)\LibrarayManagementSystem_(2.0)\obj\Debug\LibrarayManagementSystem_(2.0).pdb
+C:\Users\Hp\OneDrive\Documents\GitHub\SWE-4202_LAB\LibrarayManagementSystem_(2.0)\LibrarayManagementSystem_(2.0)\bin\Debug\LibrarayManagementSystem_(2.0).exe.config
+C:\Users\Hp\OneDrive\Documents\GitHub\SWE-4202_LAB\LibrarayManagementSystem_(2.0)\LibrarayManagementSystem_(2.0)\bin\Debug\LibrarayManagementSystem_(2.0).exe
+C:\Users\Hp\OneDrive\Documents\GitHub\SWE-4202_LAB\LibrarayManagementSystem_(2.0)\LibrarayManagementSystem_(2.0)\bin\Debug\LibrarayManagementSystem_(2.0).pdb
+C:\Users\Hp\OneDrive\Documents\GitHub\SWE-4202_LAB\LibrarayManagementSystem_(2.0)\LibrarayManagementSystem_(2.0)\obj\Debug\LibrarayManagementSystem_(2.0).csproj.AssemblyReference.cache
+C:\Users\Hp\OneDrive\Documents\GitHub\SWE-4202_LAB\LibrarayManagementSystem_(2.0)\LibrarayManagementSystem_(2.0)\obj\Debug\LibrarayManagementSystem_(2.0).csproj.SuggestedBindingRedirects.cache
+C:\Users\Hp\OneDrive\Documents\GitHub\SWE-4202_LAB\LibrarayManagementSystem_(2.0)\LibrarayManagementSystem_(2.0)\obj\Debug\LibrarayManagementSystem__2._0_.LMS.resources
+C:\Users\Hp\OneDrive\Documents\GitHub\SWE-4202_LAB\LibrarayManagementSystem_(2.0)\LibrarayManagementSystem_(2.0)\obj\Debug\LibrarayManagementSystem__2._0_.Properties.Resources.resources
+C:\Users\Hp\OneDrive\Documents\GitHub\SWE-4202_LAB\LibrarayManagementSystem_(2.0)\LibrarayManagementSystem_(2.0)\obj\Debug\LibrarayManagementSystem_(2.0).csproj.GenerateResource.cache
+C:\Users\Hp\OneDrive\Documents\GitHub\SWE-4202_LAB\LibrarayManagementSystem_(2.0)\LibrarayManagementSystem_(2.0)\obj\Debug\LibrarayManagementSystem_(2.0).csproj.CoreCompileInputs.cache
+C:\Users\Hp\OneDrive\Documents\GitHub\SWE-4202_LAB\LibrarayManagementSystem_(2.0)\LibrarayManagementSystem_(2.0)\obj\Debug\LibrarayManagementSystem_(2.0).exe
+C:\Users\Hp\OneDrive\Documents\GitHub\SWE-4202_LAB\LibrarayManagementSystem_(2.0)\LibrarayManagementSystem_(2.0)\obj\Debug\LibrarayManagementSystem_(2.0).pdb

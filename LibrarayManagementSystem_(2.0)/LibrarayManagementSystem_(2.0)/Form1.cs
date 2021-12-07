@@ -73,6 +73,11 @@ namespace LibrarayManagementSystem__2._0_
                 if (id == bookItem.id)
                 {
                     flag = true;
+                    if(bookItem.Quantity < 1)
+                    {
+                        MessageBox.Show("Book is currently Unavaiable to borrow!");
+                        break;
+                    }
                     bookItem.Quantity -= 1;
                     MessageBox.Show("The book has been borrowed successfully");
                     break;
