@@ -1,0 +1,11 @@
+C:\Users\Hp\source\repos\GradesApp\GradesApp\bin\Debug\GradesApp.exe.config
+C:\Users\Hp\source\repos\GradesApp\GradesApp\bin\Debug\GradesApp.exe
+C:\Users\Hp\source\repos\GradesApp\GradesApp\bin\Debug\GradesApp.pdb
+C:\Users\Hp\source\repos\GradesApp\GradesApp\obj\Debug\GradesApp.csproj.AssemblyReference.cache
+C:\Users\Hp\source\repos\GradesApp\GradesApp\obj\Debug\GradesApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hp\source\repos\GradesApp\GradesApp\obj\Debug\GradesApp.Properties.Resources.resources
+C:\Users\Hp\source\repos\GradesApp\GradesApp\obj\Debug\GradesApp.csproj.GenerateResource.cache
+C:\Users\Hp\source\repos\GradesApp\GradesApp\obj\Debug\GradesApp.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\GradesApp\GradesApp\obj\Debug\GradesApp.exe
+C:\Users\Hp\source\repos\GradesApp\GradesApp\obj\Debug\GradesApp.pdb
+C:\Users\Hp\source\repos\GradesApp\GradesApp\obj\Debug\GradesApp.GradesApp.resources

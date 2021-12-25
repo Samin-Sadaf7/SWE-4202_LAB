@@ -1,0 +1,11 @@
+C:\Users\Hp\source\repos\UniversityManagementSystem\UniversityManagementSystem\bin\Debug\UniversityManagementSystem.exe.config
+C:\Users\Hp\source\repos\UniversityManagementSystem\UniversityManagementSystem\bin\Debug\UniversityManagementSystem.exe
+C:\Users\Hp\source\repos\UniversityManagementSystem\UniversityManagementSystem\bin\Debug\UniversityManagementSystem.pdb
+C:\Users\Hp\source\repos\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.csproj.AssemblyReference.cache
+C:\Users\Hp\source\repos\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hp\source\repos\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.UniversityManagementSystem.resources
+C:\Users\Hp\source\repos\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.Properties.Resources.resources
+C:\Users\Hp\source\repos\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.csproj.GenerateResource.cache
+C:\Users\Hp\source\repos\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.exe
+C:\Users\Hp\source\repos\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.pdb
