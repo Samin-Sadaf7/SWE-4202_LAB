@@ -39,7 +39,7 @@ namespace LaundryManagementSystem
         }
         public string Suit_List(Suit suit)
         {
-            return "Suit" + "\t" + suit.quantity.ToString() + "\t" + suit.Status.ToString() + "\t";
+            return "Suit " + "\t" + suit.quantity.ToString() + "\t" + suit.Status.ToString() + "\t";
         }
     }
 }

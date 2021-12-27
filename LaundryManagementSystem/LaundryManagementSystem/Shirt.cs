@@ -36,7 +36,7 @@ namespace LaundryManagementSystem
         }
         public string Shirt_List(Shirt shirt)
         {
-            return "Shirt" + "\t" + shirt.quantity.ToString() + "\t" + shirt.Status.ToString() + "\t";
+            return "Shirt " + "\t" + shirt.quantity.ToString() + "\t" + shirt.Status.ToString() + "\t";
         }
         public Shirt()
         {

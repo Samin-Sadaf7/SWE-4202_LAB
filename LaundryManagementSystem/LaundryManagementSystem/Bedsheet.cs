@@ -39,7 +39,7 @@ namespace LaundryManagementSystem
         }
         public string Bedsheet_List(Bedsheet bedsheet)
         {
-            return "BedSheet" + "\t" + bedsheet.quantity.ToString() + "\t" + bedsheet.Status.ToString() + "\t";
+            return "BedSheet " + bedsheet.quantity.ToString() + "\t" + bedsheet.Status.ToString() + "\t";
         }
     }
 }

@@ -9,3 +9,14 @@ C:\Users\Hp\source\repos\LaundryManagementSystem\LaundryManagementSystem\obj\Deb
 C:\Users\Hp\source\repos\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.CoreCompileInputs.cache
 C:\Users\Hp\source\repos\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.exe
 C:\Users\Hp\source\repos\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.pdb
+C:\Users\Hp\OneDrive\Documents\GitHub\SWE-4202_LAB\LaundryManagementSystem\LaundryManagementSystem\bin\Debug\LaundryManagementSystem.exe.config
+C:\Users\Hp\OneDrive\Documents\GitHub\SWE-4202_LAB\LaundryManagementSystem\LaundryManagementSystem\bin\Debug\LaundryManagementSystem.exe
+C:\Users\Hp\OneDrive\Documents\GitHub\SWE-4202_LAB\LaundryManagementSystem\LaundryManagementSystem\bin\Debug\LaundryManagementSystem.pdb
+C:\Users\Hp\OneDrive\Documents\GitHub\SWE-4202_LAB\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.AssemblyReference.cache
+C:\Users\Hp\OneDrive\Documents\GitHub\SWE-4202_LAB\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hp\OneDrive\Documents\GitHub\SWE-4202_LAB\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.LMS_form.resources
+C:\Users\Hp\OneDrive\Documents\GitHub\SWE-4202_LAB\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.Properties.Resources.resources
+C:\Users\Hp\OneDrive\Documents\GitHub\SWE-4202_LAB\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.GenerateResource.cache
+C:\Users\Hp\OneDrive\Documents\GitHub\SWE-4202_LAB\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\Hp\OneDrive\Documents\GitHub\SWE-4202_LAB\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.exe
+C:\Users\Hp\OneDrive\Documents\GitHub\SWE-4202_LAB\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.pdb

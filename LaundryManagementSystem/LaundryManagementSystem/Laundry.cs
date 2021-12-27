@@ -6,18 +6,20 @@ using System.Threading.Tasks;
 
 namespace LaundryManagementSystem
 {
-    public  static class Laundry
-    {    
-         static public List<User>users = new List<User>();
-         static public Shirt shirt = new Shirt();
-         static public Pant pant = new Pant();
-         static public Bedsheet Bedsheet = new Bedsheet();
-         static public Suit suit = new Suit();
-         static public void AddUser(User user)
+    public  class Laundry
+    {
+         public List<User> users = new List<User>();
+         public Shirt shirt = new Shirt();
+         public Pant pant = new Pant();
+         public Bedsheet Bedsheet = new Bedsheet();
+         public Suit suit = new Suit();
+         public User User = new User();
+        public void AddUser(User user)
         {
             users.Add(user);
         }
-        static public bool order_shirt(int UserID, int quantity, int orderID, string shirt_TO_DO)
+        static public int prev_order = 0;
+        public bool order_shirt(int UserID, int quantity, int orderID, string shirt_TO_DO)
         {
             bool flag = false;
             foreach (User user in users)
@@ -29,73 +31,70 @@ namespace LaundryManagementSystem
                     flag = true;
                     break;
                 }
-            }   
+            }
             return flag;
         }
-            static public bool order_pant(int UserID, int quantity, int orderID, string pant_TO_DO)
+         public bool order_pant(int UserID, int quantity, int orderID, string pant_TO_DO)
+        {
+            bool flag = false;
+            foreach (User user in users)
             {
-                bool flag = false;
-                foreach (User user in users)
+                if (user.UserID == UserID)
                 {
-                        if (user.UserID == UserID)
-                        {   
-                            pant.pantcalc(orderID,quantity, pant_TO_DO, user);
-                            user.pants.Add(pant);
-                            flag = true;
-                            break;
-                        }
+                    pant.pantcalc(orderID, quantity, pant_TO_DO, user);
+                    user.pants.Add(pant);
+                    flag = true;
+                    break;
                 }
-                return flag;
+            }
+            return flag;
         }
-        static public bool order_bedsheet(int UserID, int quantity, int orderID, string shirt_TO_DO)
+        public bool order_bedsheet(int UserID, int quantity, int orderID, string shirt_TO_DO)
         {
             bool flag = false;
             foreach (User user in users)
             {
-                    if (user.UserID == UserID)
-                    {
-                        Bedsheet.Bedsheetcalc(orderID, quantity, shirt_TO_DO, user);
-                        user.bedSheets.Add(Bedsheet);
-                        flag = true;
-                        break;
-                    }
+                if (user.UserID == UserID)
+                {
+                    Bedsheet.Bedsheetcalc(orderID, quantity, shirt_TO_DO, user);
+                    user.bedSheets.Add(Bedsheet);
+                    flag = true;
+                    break;
+                }
             }
             return flag;
         }
-        static public bool order_suit(int UserID, int quantity, int orderID, string suit_TO_DO)
+        public bool order_suit(int UserID, int quantity, int orderID, string suit_TO_DO)
         {
             bool flag = false;
             foreach (User user in users)
             {
-                    if (user.UserID == UserID)
-                    {
-                        suit.suitcalc(orderID, quantity, suit_TO_DO, user);
-                        user.suits.Add(suit);
-                        flag = true;
-                        break;
-                    }
+                if (user.UserID == UserID)
+                {
+                    suit.suitcalc(orderID, quantity, suit_TO_DO, user);
+                    user.suits.Add(suit);
+                    flag = true;
+                    break;
+                }
             }
             return flag;
         }
-        static public bool OrderSituation(int orderid, string OrderStatus)
+        public void OrderSituation(int orderid, string OrderStatus)
         {
-            bool flag = false;
-            foreach (User user in Laundry.users)
+            foreach (User user in users)
             {
                 foreach (Shirt shirt in user.shirts)
                 {
                     if (shirt.orderID == orderid)
                     {
-                        flag = true;
                         shirt.Current_Stat = OrderStatus;
                         break;
                     }
-                 }
+                }
                 foreach (Pant pant in user.pants)
                 {
                     if (pant.orderID == orderid)
                     {
-                        flag = true;
                         pant.Current_Stat = OrderStatus;
                         break;
                     }
@@ -104,7 +103,6 @@ namespace LaundryManagementSystem
                 {
                     if (bedsheet.orderID == orderid)
                     {
-                        flag = true;
                         bedsheet.Current_Stat = OrderStatus;
                         break;
                     }
@@ -112,51 +110,29 @@ namespace LaundryManagementSystem
                 foreach (Suit suit in user.suits)
                 {
                     if (suit.orderID == orderid)
-                    {
-                        flag = true;
+                    { 
                         suit.Current_Stat = OrderStatus;
                         break;
                     }
                 }
             }
-            return flag;
         }
-        static public double LaundrySubmitGetMoney(int orderID,string OrderStat,double current_account)
+           
+        public void LaundryCalcTotal(int UserID)
         {
-            foreach (User user in Laundry.users)
-            {
-                foreach (Shirt shirt in user.shirts)
-                {
-                    if (shirt.orderID == orderID)
-                    {
-                        if (OrderStat == "Delivered")
-                        {
-                            current_account = current_account + user.UserTotal_Pay;
-                            break;
-                        }
-                        else
-                        {
-                            break;
-                        }
-                    }
-                }
-            }
-            return current_account;
-        }
-        static public double LaundryCalcTotal(int UserID,double total_now)
-        {
-            foreach (User user in Laundry.users)
+            foreach (User user in users)
             {
                 if (user.UserID == UserID)
                 {
                     user.UserTotal_Pay = user.UserPay_Shirt + user.UserPay_Suit + user.UserPay_Pant + user.UserPay_Bedsheet;
-                    total_now = user.UserTotal_Pay;
                     break;
                 }
 
             }
-            return total_now;
-
+        }
+        static public int GenerateOrderID()
+        {
+            return prev_order++;
         }
     }
 }

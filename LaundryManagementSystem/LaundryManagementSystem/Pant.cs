@@ -40,7 +40,7 @@ namespace LaundryManagementSystem
         }
         public string Pant_List(Pant pant)
         {
-            return "Pant" + "\t" + pant.quantity.ToString() + "\t" + pant.Status.ToString() + "\t";
+            return "Pant " + "\t" + pant.quantity.ToString() + "\t" + pant.Status.ToString() + "\t";
         }
     }
 }
