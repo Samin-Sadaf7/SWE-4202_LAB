@@ -1,0 +1,11 @@
+C:\Users\Hp\source\repos\StudentCourseEnrollment\StudentCourseEnrollment\bin\Debug\StudentCourseEnrollment.exe.config
+C:\Users\Hp\source\repos\StudentCourseEnrollment\StudentCourseEnrollment\bin\Debug\StudentCourseEnrollment.exe
+C:\Users\Hp\source\repos\StudentCourseEnrollment\StudentCourseEnrollment\bin\Debug\StudentCourseEnrollment.pdb
+C:\Users\Hp\source\repos\StudentCourseEnrollment\StudentCourseEnrollment\obj\Debug\StudentCourseEnrollment.csproj.AssemblyReference.cache
+C:\Users\Hp\source\repos\StudentCourseEnrollment\StudentCourseEnrollment\obj\Debug\StudentCourseEnrollment.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hp\source\repos\StudentCourseEnrollment\StudentCourseEnrollment\obj\Debug\StudentCourseEnrollment.Form1.resources
+C:\Users\Hp\source\repos\StudentCourseEnrollment\StudentCourseEnrollment\obj\Debug\StudentCourseEnrollment.Properties.Resources.resources
+C:\Users\Hp\source\repos\StudentCourseEnrollment\StudentCourseEnrollment\obj\Debug\StudentCourseEnrollment.csproj.GenerateResource.cache
+C:\Users\Hp\source\repos\StudentCourseEnrollment\StudentCourseEnrollment\obj\Debug\StudentCourseEnrollment.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\StudentCourseEnrollment\StudentCourseEnrollment\obj\Debug\StudentCourseEnrollment.exe
+C:\Users\Hp\source\repos\StudentCourseEnrollment\StudentCourseEnrollment\obj\Debug\StudentCourseEnrollment.pdb

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "40a92910-89d8-4b21-b489-e1ebc97a2b2f": {
+      "ProjectGuid": "40a92910-89d8-4b21-b489-e1ebc97a2b2f",
+      "DisplayName": "StudentCourseEnrollment",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
