@@ -1,0 +1,11 @@
+C:\Users\Hp\OneDrive\Desktop\needs\OOP\BankingSystem\BankingSystem\bin\Debug\BankingSystem.exe.config
+C:\Users\Hp\OneDrive\Desktop\needs\OOP\BankingSystem\BankingSystem\bin\Debug\BankingSystem.exe
+C:\Users\Hp\OneDrive\Desktop\needs\OOP\BankingSystem\BankingSystem\bin\Debug\BankingSystem.pdb
+C:\Users\Hp\OneDrive\Desktop\needs\OOP\BankingSystem\BankingSystem\obj\Debug\BankingSystem.csproj.AssemblyReference.cache
+C:\Users\Hp\OneDrive\Desktop\needs\OOP\BankingSystem\BankingSystem\obj\Debug\BankingSystem.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hp\OneDrive\Desktop\needs\OOP\BankingSystem\BankingSystem\obj\Debug\BankingSystem.Banking_System.resources
+C:\Users\Hp\OneDrive\Desktop\needs\OOP\BankingSystem\BankingSystem\obj\Debug\BankingSystem.Properties.Resources.resources
+C:\Users\Hp\OneDrive\Desktop\needs\OOP\BankingSystem\BankingSystem\obj\Debug\BankingSystem.csproj.GenerateResource.cache
+C:\Users\Hp\OneDrive\Desktop\needs\OOP\BankingSystem\BankingSystem\obj\Debug\BankingSystem.csproj.CoreCompileInputs.cache
+C:\Users\Hp\OneDrive\Desktop\needs\OOP\BankingSystem\BankingSystem\obj\Debug\BankingSystem.exe
+C:\Users\Hp\OneDrive\Desktop\needs\OOP\BankingSystem\BankingSystem\obj\Debug\BankingSystem.pdb

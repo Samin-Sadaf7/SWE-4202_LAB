@@ -185,8 +185,8 @@ namespace StudentCourseEnrollment
                             {
                                 flag = true;
                                 pro.courses.Add(course);
-                                fee = pro.FeesPayable(course.fee);
-                                fee = fee + (fee * 10) / 100;
+                                double fees = course.fee;
+                                fee = pro.FeesPayable(fees);
                                 pro.totalPay = fee;
                                 pro.enroll_date = date;
                             }
