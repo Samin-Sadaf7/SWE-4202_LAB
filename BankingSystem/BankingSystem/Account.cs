@@ -13,7 +13,7 @@ namespace BankingSystem
         public double Balance;
         public string Date;
         public int transaction_num;
-        public string TransactionTime;
+        public SortedList<string,int> TransactionTime=new SortedList<string, int>();
         public List<string> transaction = new List<string>();
     }
 }

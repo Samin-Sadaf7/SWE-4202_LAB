@@ -21,7 +21,7 @@ namespace BankingSystem
         {
             string acc_name = Account_NameTXT.Text;
             double acc_balance=Convert.ToDouble(AmountTXT.Text);
-            string date = WithdrawDate.Text;
+            string date = CreatedDate.Text;
             string acc_num_init = Convert.ToString(bank.GenerateAccount());
             if(AccountTypeCombo.Text=="Saving Account")
             {
@@ -105,14 +105,32 @@ namespace BankingSystem
                     {
                         try
                         {
+                            bool flag = false;
                             double r = Convert.ToDouble(WithdrawAmountTXT.Text);
                             double p = Account.Balance - Convert.ToDouble(WithdrawAmountTXT.Text);
-                            if (p < 0 || r < 0 || Account.transaction_num>=5)
+                            if (!Account.TransactionTime.ContainsKey(WithdrawDate.Text))
+                            {
+                                Account.TransactionTime.Add(WithdrawDate.Text, 1);
+    
+                            }
+                            else
+                            {
+                                if (Account.TransactionTime[WithdrawDate.Text] >= 5)
+                                {
+                                    flag = true;
+                                }
+                                else
+                                {
+                                    Account.TransactionTime[WithdrawDate.Text]++;
+                                }
+
+                            }
+                            if (p < 0 || r < 0 || flag)
                             {
                                 throw new System.Exception();
                             }
                             else
-                            {
+                            {   
                                 Account.Balance = Account.Balance-15- Convert.ToDouble(WithdrawAmountTXT.Text);
                                 Account.transaction_num++;
                                 Account.transaction.Add("Withdrawed Amount" + "\t" + WithdrawAmountTXT.Text + "\t on" + WithdrawDate.Text);
@@ -178,7 +196,25 @@ namespace BankingSystem
                         {
                             double r = Convert.ToDouble(DepositAmountTXT.Text);
                             double p = Account.Balance + Convert.ToDouble(DepositAmountTXT.Text);
-                            if (r < 0 || Account.transaction_num>=5)
+                            bool flag = false;
+                            if (!Account.TransactionTime.ContainsKey(DepositDate.Text))
+                            {
+                                Account.TransactionTime.Add(DepositDate.Text, 1);
+
+                            }
+                            else
+                            {
+                                if (Account.TransactionTime[DepositDate.Text] >= 5)
+                                {
+                                    flag = true;
+                                }
+                                else
+                                {
+                                    Account.TransactionTime[DepositDate.Text]++;
+                                }
+                               
+                            }
+                            if (r < 0 || flag)
                             {
                                 throw new System.Exception();
                             }
