@@ -1,0 +1,11 @@
+C:\Users\Hp\OneDrive\Desktop\needs\OOP\IUT Result Processing App\IUT Result Processing App\bin\Debug\IUT Result Processing App.exe.config
+C:\Users\Hp\OneDrive\Desktop\needs\OOP\IUT Result Processing App\IUT Result Processing App\bin\Debug\IUT Result Processing App.exe
+C:\Users\Hp\OneDrive\Desktop\needs\OOP\IUT Result Processing App\IUT Result Processing App\bin\Debug\IUT Result Processing App.pdb
+C:\Users\Hp\OneDrive\Desktop\needs\OOP\IUT Result Processing App\IUT Result Processing App\obj\Debug\IUT Result Processing App.csproj.AssemblyReference.cache
+C:\Users\Hp\OneDrive\Desktop\needs\OOP\IUT Result Processing App\IUT Result Processing App\obj\Debug\IUT Result Processing App.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hp\OneDrive\Desktop\needs\OOP\IUT Result Processing App\IUT Result Processing App\obj\Debug\IUT_Result_Processing_App.Form1.resources
+C:\Users\Hp\OneDrive\Desktop\needs\OOP\IUT Result Processing App\IUT Result Processing App\obj\Debug\IUT_Result_Processing_App.Properties.Resources.resources
+C:\Users\Hp\OneDrive\Desktop\needs\OOP\IUT Result Processing App\IUT Result Processing App\obj\Debug\IUT Result Processing App.csproj.GenerateResource.cache
+C:\Users\Hp\OneDrive\Desktop\needs\OOP\IUT Result Processing App\IUT Result Processing App\obj\Debug\IUT Result Processing App.csproj.CoreCompileInputs.cache
+C:\Users\Hp\OneDrive\Desktop\needs\OOP\IUT Result Processing App\IUT Result Processing App\obj\Debug\IUT Result Processing App.exe
+C:\Users\Hp\OneDrive\Desktop\needs\OOP\IUT Result Processing App\IUT Result Processing App\obj\Debug\IUT Result Processing App.pdb
